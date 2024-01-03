@@ -33,8 +33,9 @@ public static Boolean valueOf(boolean b) {
     - 서비스 제공자 인터페이스(service provider interface; JDBC - Driver): 클라이언트는 원하는 구현체의 조건을 명시
 
 ## 정적 팩터리의 단점
-### 1. 상속을 하려면 public이나 protected 생성자가 필요하니 정적 팩터리 메서드만 제공하면 하위 클래스를 만들 수 없다.
-### 2. 정적 팩터리 메서드는 프로그래머가 찾기 어렵다.
+1. 상속을 하려면 public이나 protected 생성자가 필요하니 정적 팩터리 메서드만 제공하면 하위 클래스를 만들 수 없다.
+  - 이 제약은 상속보다 composition을 사용하도록 유도하고 [immutable](/Effective_Java/Item17.md) 타입으로 만들려면 이 제약을 지켜야 한다는 점에서 오히려 장점이 될 수 있다.
+2. 정적 팩터리 메서드는 프로그래머가 찾기 어렵다.
 
 ## 정적 팩터리 메서드에 자주 사용하는 명명 방식
 | 메서드                    | 설명                                                       | 예시                                                          |
