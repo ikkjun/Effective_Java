@@ -31,3 +31,19 @@ public static Boolean valueOf(boolean b) {
     - 서비스 접근 API(service access API; JDBC - DriverManager.getConnection): 클라이언트가 서비스의 인스턴스를 얻을 때 사용(유연한 정적 팩터리의 실체)
   - 추가(네 번째 컴포넌트)
     - 서비스 제공자 인터페이스(service provider interface; JDBC - Driver): 클라이언트는 원하는 구현체의 조건을 명시
+
+## 정적 팩터리의 단점
+### 1. 상속을 하려면 public이나 protected 생성자가 필요하니 정적 팩터리 메서드만 제공하면 하위 클래스를 만들 수 없다.
+### 2. 정적 팩터리 메서드는 프로그래머가 찾기 어렵다.
+
+## 정적 팩터리 메서드에 자주 사용하는 명명 방식
+| 메서드                    | 설명                                                       | 예시                                                          |
+|------------------------|----------------------------------------------------------|-------------------------------------------------------------|
+| from                   | 매개변수를 하나 받아서 해당 타입의 인스턴스를 반환하는 형변환 메서드                   | Date d = Date.from(instant);                                |
+| of                     | 여러 매개변수를 받아 적합한 타입의 인스턴스를 반환하는 집계 메서드                    | Set<Rank> faceCards = EnumSet.of(JACK, QUEEN, KING);        |
+| valueOf                | from과 of의 더 자세한 버전                                       | BigInteger prime = BigInteger.valueOf(Integer.MAX_VALUE);   |
+| instance 혹은 getInstance| 매개변수를 받는다면 매개변수로 명시한 인스턴스를 반환하지만, 같은 인스턴스임을 보장하지는 않는다.   | StackWalker luke = StackWalker.getInstance(options);        |
+| create 혹은 newInstance  |instance 혹은 getInstance와 동일하지만, 항상 새로운 인스턴스를 생성해서 반환한다.| Object newArray = Array.newInstance(classObject, arrayLen); |
+|getType| getInstance와 같으나, 생성할 클래스가 아닌 다른 클래스에 팩터리 메서드를 정의할 때 쓴다. | FileStore fs = Files.getFileStore(path);                    |
+|newType| newInstance와 같으나, 생성할 클래스가 아닌 다른 클래스에 팩터리 메서드를 정의할 때 쓴다. | BufferedReader br = Files.newBufferecReader(path);          |
+|type| getType나 newType의 간결한 버전                                 |List<Complaint> litany = Collections.list(legacyLitany);|

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="">
+    <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Item1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Item1.md" afterDir="false" />
     </list>
@@ -57,8 +57,17 @@
       <option name="presentableId" value="Default" />
       <updated>1704274842236</updated>
       <workItem from="1704274843307" duration="2708000" />
-      <workItem from="1704280461316" duration="2516000" />
+      <workItem from="1704280461316" duration="3383000" />
     </task>
+    <task id="LOCAL-00001" summary="study">
+      <option name="closed" value="true" />
+      <created>1704283489161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704283489161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +75,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="study" />
+    <option name="LAST_COMMIT_MESSAGE" value="study" />
   </component>
 </project>
