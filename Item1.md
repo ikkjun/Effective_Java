@@ -34,8 +34,9 @@ public static Boolean valueOf(boolean b) {
 
 ## 정적 팩터리의 단점
 1. 상속을 하려면 public이나 protected 생성자가 필요하니 정적 팩터리 메서드만 제공하면 하위 클래스를 만들 수 없다.
-  - 이 제약은 상속보다 [composition](https://github.com/ikkjun/Effective_Java/blob/main/Item18.md)을 사용하도록 유도하고 [immutable](https://github.com/ikkjun/Effective_Java/blob/main/Item17.md) 타입으로 만들려면 이 제약을 지켜야 한다는 점에서 오히려 장점이 될 수 있다.
+   - 이 제약은 상속보다 [composition](https://github.com/ikkjun/Effective_Java/blob/main/Item18.md)을 사용하도록 유도하고 [immutable 타입](https://github.com/ikkjun/Effective_Java/blob/main/Item17.md)으로 만들려면 이 제약을 지켜야 한다는 점에서 오히려 장점이 될 수 있다.
 2. 정적 팩터리 메서드는 프로그래머가 찾기 어렵다.
+   - API에 명확하게 드러나지 않아서 사용자는 정적 팩터리 메서드 방식 클래스를 인스턴스화할 방법을 알아내야 한다.
 
 ## 정적 팩터리 메서드에 자주 사용하는 명명 방식
 | 메서드                    | 설명                                                       | 예시                                                          |
