@@ -12,7 +12,7 @@ public static Boolean valueOf(boolean b) {
 
 그리고 하나의 시그니처로는 생성자를 하나만 만들 수 있다. 똑같은 타입을 매개변수로 받는 생성자를 새로 추가할 수 없다는 것이다.
 ### 2. 호출될 때마다 인스턴스를 새로 생성하지는 않아도 된다.
-불변 클래스(immutable class; Item17)는 인스턴스를 미리 만들어 놓거나 새로 생성한 인스턴스를 캐싱하여 재활용하는 식으로 불필요한 객체 생성을 피할 수 있다. Boolean.valueOf(boolean) 메서드는 객체를 아예 생성하지 않는다.
+불변 클래스([immutable class](https://github.com/ikkjun/Effective_Java/blob/main/Item17.md))는 인스턴스를 미리 만들어 놓거나 새로 생성한 인스턴스를 캐싱하여 재활용하는 식으로 불필요한 객체 생성을 피할 수 있다. Boolean.valueOf(boolean) 메서드는 객체를 아예 생성하지 않는다.
 
 ### 3. 반환 타입의 하위 타입 객체를 반환할 수 있다.
 - 반환할 객체의 클래스를 자유롭게 선택할 수 있는 유연성이 있다. 
