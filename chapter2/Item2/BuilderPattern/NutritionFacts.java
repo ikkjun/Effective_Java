@@ -35,4 +35,13 @@ public class NutritionFacts {
             return new NutritionFacts(this);
         }
     }
+
+    public NutritionFacts(Builder builder) {
+        servingSize = builder.servingSize;
+        servings = builder.servings;
+        calories = builder.calories;
+        fat = builder.fat;
+        sodium = builder.sodium;
+        carbonbydrate = builder.carbonbydrate;
+    }
 }
