@@ -1,4 +1,4 @@
-public class JavaBeans_pattern {
+public class NutritionFacts {
     private int servingSize = -1;   // 필수
     private int servings = -1;      // 필수
     private int calories = 0;
@@ -6,7 +6,7 @@ public class JavaBeans_pattern {
     private int sodium = 0;
     private int carbohydrate = 0;
 
-    public JavaBeans_pattern() {}
+    public NutritionFacts() {}
     public void setServingSize(int val) {servingSize = val;}
     public void setServings(int val) {servings = val;}
     public void setCalories(int val) {calories = val;}
