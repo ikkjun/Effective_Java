@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter2/Item2/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/chapter2/Item2/BuilderPattern/BuilderPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Effective_Java.iml" filepath="$PROJECT_DIR$/.idea/Effective_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2/Item02/Item02.iml" filepath="$PROJECT_DIR$/chapter2/Item02/Item02.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter2/Item2/Item2.iml" filepath="$PROJECT_DIR$/chapter2/Item2/Item2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter2/Item2/JavaBeans/JavaBeans.iml" filepath="$PROJECT_DIR$/chapter2/Item2/JavaBeans/JavaBeans.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter2/chapter2.iml" filepath="$PROJECT_DIR$/chapter2/chapter2.iml" />
