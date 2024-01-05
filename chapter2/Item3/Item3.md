@@ -22,4 +22,6 @@ ex. 함수([Item24](https://github.com/ikkjun/Effective_Java/blob/main/Item24.md
   - 정적 팩터리의 메서드 참조를 공급자로 사용할 수 있다.
 
 ## 싱글턴 클래스 직렬화 방법
-Serialzable을 구현한다고 선언하는 것만으로는 부족하다. 모든 인스턴스 필드를 일시적(transient)라고 선언하고 readResolve 메서드를 제공해야 한다.([Item89](https://github.com/ikkjun/Effective_Java/blob/main/Item89.md))
+Serialzable을 구현한다고 선언하는 것만으로는 부족하다. 
+모든 인스턴스 필드를 일시적(transient)라고 선언하고 readResolve 메서드를 제공해야 한다.([Item89](https://github.com/ikkjun/Effective_Java/blob/main/Item89.md))
+이렇게 하지 않으면 직렬화된 인스턴스를 역직렬화할 때마다 새로운 인스턴스가 만들어진다.
