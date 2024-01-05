@@ -25,13 +25,13 @@ public class NutritionFacts {
         }
 
         public Builder calories(int val)
-        {calories = val;    return this;}
+            {calories = val;    return this;}
         public Builder fat(int val)
-        {fat = val;    return this;}
+            {fat = val;    return this;}
         public Builder sodium(int val)
-        {sodium = val;    return this;}
+            {sodium = val;    return this;}
         public Builder carbohydrate(int val)
-        {carbohydrate = val;    return this;}
+            {carbohydrate = val;    return this;}
 
         public NutritionFacts build() {
             return new NutritionFacts(this);
