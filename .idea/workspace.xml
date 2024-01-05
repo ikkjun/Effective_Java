@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="study">
-      <change afterPath="$PROJECT_DIR$/chapter2/Item02/src/HierarchicalBuilder/Calzone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/Item02/src/BuilderPattern/NutritionFacts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/Item2/Item2.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Item2/Item2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/Item2/BuilderPattern/Pizza.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1704356150069" duration="1597000" />
       <workItem from="1704365025850" duration="3305000" />
       <workItem from="1704379258935" duration="5215000" />
-      <workItem from="1704416452426" duration="718000" />
+      <workItem from="1704416452426" duration="1461000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <option name="closed" value="true" />
@@ -243,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704386799253</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="study">
+      <option name="closed" value="true" />
+      <created>1704417279528</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704417279528</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
