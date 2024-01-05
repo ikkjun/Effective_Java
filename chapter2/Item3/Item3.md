@@ -1,4 +1,4 @@
-# private 생성자나 열거 타입으로 싱글턴임을 보증하라
+# Item3. private 생성자나 열거 타입으로 싱글턴임을 보증하라
 ## 싱글턴(singleton)이란? 
 인스턴스를 오직 하나만 생성할 수 있는 클래스이다.</br>
 ex. 함수([Item24](https://github.com/ikkjun/Effective_Java/blob/main/Item24.md))와 같은 무상태(stateless) 객체나 설계상 유일해야 하는 시스템 컴포넌트
