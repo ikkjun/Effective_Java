@@ -1,4 +1,6 @@
 # 다 쓴 객체를 참조를 해제하라.
+## 메모리 누수를 초래하는 원인
+### 1. 객체 참조
 ```java
 import java.util.Arrays;
 import java.util.EmptyStackException;
@@ -40,10 +42,14 @@ elements 배열의 활성 영역 밖의 참조들이 모두 여기에 해당한�
 
 ```java
 public Object pop() {
-    if(size == 0) 
+    if(size == 0)
         throw new EmptyStackException();
     Object result = elements[--size];
-    element[size] = null;   // 다 쓴 참조 해제
-    return result
+    elements[size] = null;   // 다 쓴 참조 해제
+    return result;
 }
 ```
+다 쓴 참조를 null 처리할 때의 장점: null로 처리한 참조를 실수로 사용하려 하면 프로그램은 즉시 NullPointerException을 던지며 종료된다.
+그러나 모든 객체를 다 쓰자마자 하나씩 null 처리를 할 필요는 없고, 객체 참조를 null 처리하는 일은 예외적인 경우여야 한다.
+다 쓴 참조를 해제하는 가장 좋은 방법은 그 참조를 담은 변수를 유효 범위(scope) 밖으로 밀어내는 것이다.
+
