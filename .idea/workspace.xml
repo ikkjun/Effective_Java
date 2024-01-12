@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
-      <change afterPath="$PROJECT_DIR$/chapter2/Item8/src/Adult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/Item8/src/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/Item8/src/Teenager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/Item8/Item8.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Item8/Item8.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,9 @@
       <workItem from="1704714979738" duration="1817000" />
       <workItem from="1704762239871" duration="741000" />
       <workItem from="1704795589000" duration="7038000" />
-      <workItem from="1704973427814" duration="4090000" />
+      <workItem from="1704973427814" duration="4204000" />
+      <workItem from="1704985532666" duration="255000" />
+      <workItem from="1705021717855" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <option name="closed" value="true" />
