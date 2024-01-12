@@ -1,1 +1,2 @@
 # Item9. try-finally보다는 try-with-resources를 사용하라.
+자바 라이브러리에는 close메서드를 호출해 직접 닫아줘야 하는 자원이 많다. InputStream, OutputStream, java.sql.Connection 등이 좋은 예다. 전통적으로 자원이 제대로 닫힘을 보장하는 수단으로 try-finally가 쓰였다. 그러나 자원이 둘 이상이면 try-finally 방식은 너무 지저분하다.
