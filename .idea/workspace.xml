@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
-      <change afterPath="$PROJECT_DIR$/Chapter3/Chapter3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3/Chapter3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3/src/Item10/Item10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/src/Item10/Item10.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/Item10/Item10.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,15 +163,7 @@
       <workItem from="1705021717855" duration="243000" />
       <workItem from="1705057312404" duration="3105000" />
       <workItem from="1705104507516" duration="318000" />
-      <workItem from="1705280367333" duration="2576000" />
-    </task>
-    <task id="LOCAL-00001" summary="study">
-      <option name="closed" value="true" />
-      <created>1704283489161</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1704283489161</updated>
+      <workItem from="1705280367333" duration="5269000" />
     </task>
     <task id="LOCAL-00002" summary="study">
       <option name="closed" value="true" />
@@ -544,7 +533,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705062489008</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705311842628</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1705311842628</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705311911357</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1705311911357</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705312121427</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1705312121427</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
