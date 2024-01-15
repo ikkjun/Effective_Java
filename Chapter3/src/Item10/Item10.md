@@ -24,12 +24,27 @@ equals메서드는 동치관계(equivalence relation)를 구현하며, 다음을
 
 ### 1. 반사성(reflexivity)
 null이 아닌 모든 참조값 x에 대해, x.equals(x)는 true다.</br>
-객체는 자기 자신과 같아야 한다.
+객체는 자기 자신과 같아야 한다.</br>
 ### 2. 대칭성(symmetry)
 null이 아닌 모든 참조값 x, y에 대해, x.equals(y)가 true면 y.equals(x)도 true이다.</br>
-두 객체는 서로에 대한 동치 여부에 똑같이 답해야 한다. 대소문자를 구분하는 경우 대칭성을 위배하지 않도록 주의해야 한다.
+두 객체는 서로에 대한 동치 여부에 똑같이 답해야 한다. 대소문자를 구분하는 경우 대칭성을 위배하지 않도록 주의해야 한다.</br>
+equals 규약을 어기면 그 객체를 사용하는 다른 객체들이 어떻게 반응할지 알 수 없다.</br>
+
+#### 해결방안
+equals를 String과 연동하지 않기
+```java
+@Override public boolean equals(Object o) {
+    return o instanceof CaseInsensitiveString && ((CaseInsensitiveString) o).s.equalsIgnoreCase(s);
+}
+```
+
 ### 3. 추이성(transivity)
 null이 아닌 모든 참조값 x, y, z에 대해, x.equals(y)가 true이고 y.equals(z)도 true면 x.equals(z)도 true다.</br>
+첫 번째 객체와 두 번째 객체가 같고, 두 번째 객체와 세 번째 객체가 같다면, 첫 번째 객체와 세 번재 객체도 같아야 한다는 뜻이다.
+
+구체 클래스를 확장해 새로운 값을 추가하면서 equals 규약을 만족시킬 방법은 존재하지 않는다. 
+
+리스코프 치환 원칙(Liskov substitution principle)에 따르면, 어떤 타입에 있어서 중요한 속성이라면 그 하위 타입에서도 마찬가지로 중요하다. 따라서 그 타입의 모든 메서드가 하위 타입에서도 똑같이 잘 작동해야 한다.
 ### 4. 일관성(consistency)
 null이 아닌 모든 참조값 x, y에 대해, x.equals(y)를 반복해서 호출하면 항상 true를 반환하거나 항상 false를 반환한다.</br>
 ### 5. null-아님
