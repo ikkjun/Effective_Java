@@ -23,12 +23,14 @@ public boolean equals(Object o) {
 equals메서드는 동치관계(equivalence relation)를 구현하며, 다음을 만족한다.
 
 ### 1. 반사성(reflexivity)
-null이 아닌 모든 참조값 x에 대해, x.equals(x)는 true다.
+null이 아닌 모든 참조값 x에 대해, x.equals(x)는 true다.</br>
+객체는 자기 자신과 같아야 한다.
 ### 2. 대칭성(symmetry)
-null이 아닌 모든 참조값 x, y에 대해, x.equals(y)가 true면 y.equals(x)도 true이다.
+null이 아닌 모든 참조값 x, y에 대해, x.equals(y)가 true면 y.equals(x)도 true이다.</br>
+두 객체는 서로에 대한 동치 여부에 똑같이 답해야 한다. 대소문자를 구분하는 경우 대칭성을 위배하지 않도록 주의해야 한다.
 ### 3. 추이성(transivity)
-null이 아닌 모든 참조값 x, y, z에 대해, x.equals(y)가 true이고 y.equals(z)도 true면 x.equals(z)도 true다.
+null이 아닌 모든 참조값 x, y, z에 대해, x.equals(y)가 true이고 y.equals(z)도 true면 x.equals(z)도 true다.</br>
 ### 4. 일관성(consistency)
-null이 아닌 모든 참조값 x, y에 대해, x.equals(y)를 반복해서 호출하면 항상 true를 반환하거나 항상 false를 반환한다.
+null이 아닌 모든 참조값 x, y에 대해, x.equals(y)를 반복해서 호출하면 항상 true를 반환하거나 항상 false를 반환한다.</br>
 ### 5. null-아님
-null이 아닌 모든 참조 값 x에 대해, x.equals(null)은 false다.
+null이 아닌 모든 참조 값 x에 대해, x.equals(null)은 false다.</br>
