@@ -45,6 +45,10 @@ null이 아닌 모든 참조값 x, y, z에 대해, x.equals(y)가 true이고 y.e
 구체 클래스를 확장해 새로운 값을 추가하면서 equals 규약을 만족시킬 방법은 존재하지 않는다. 
 
 리스코프 치환 원칙(Liskov substitution principle)에 따르면, 어떤 타입에 있어서 중요한 속성이라면 그 하위 타입에서도 마찬가지로 중요하다. 따라서 그 타입의 모든 메서드가 하위 타입에서도 똑같이 잘 작동해야 한다.
+
+#### 해결방안
+상속 대신 composition을 사용하라
+
 ### 4. 일관성(consistency)
 null이 아닌 모든 참조값 x, y에 대해, x.equals(y)를 반복해서 호출하면 항상 true를 반환하거나 항상 false를 반환한다.</br>
 ### 5. null-아님
