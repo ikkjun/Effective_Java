@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
+      <change afterPath="$PROJECT_DIR$/Chapter3/Chapter3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter3/Chapter3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter3/src/Item10/Item10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,10 +82,10 @@
       <recent name="$PROJECT_DIR$/chapter2/src1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/chapter2/Item6" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/chapter2/Item2" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/chapter2" />
     </key>
   </component>
@@ -162,7 +166,7 @@
       <workItem from="1705021717855" duration="243000" />
       <workItem from="1705057312404" duration="3105000" />
       <workItem from="1705104507516" duration="318000" />
-      <workItem from="1705280367333" duration="1437000" />
+      <workItem from="1705280367333" duration="2576000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <option name="closed" value="true" />
