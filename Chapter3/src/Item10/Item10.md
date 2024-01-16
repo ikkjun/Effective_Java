@@ -82,4 +82,12 @@ equals를 다 구현했다면 대칭성, 추이성, 일관성이 있는지 검�
 
 ```java
 // 전형적인 equals 메서드의 예
+@Override public boolean equals(Object o) {
+    if (o == this)
+        return true;
+    if(!(o instanceof PhoneNumber))
+        return false;
+    PhoneNumber pn = (PhoneNumber)o;
+    return pn.lineNum == lineNum && pn.prefix == prefix && pn.areaCode == areaCode;
+}
 ```
