@@ -55,3 +55,17 @@ null이 아닌 모든 참조값 x, y에 대해, x.equals(y)를 반복해서 호�
 ### 5. null-아님
 null이 아닌 모든 참조 값 x에 대해, x.equals(null)은 false다.</br>
 null-아님은 모든 객체가 null과 같지 않아야 한다는 뜻이다.
+```java
+// 명시적 null 검사 - 필요 없다!
+@Override public boolean equals(Object o) {
+    if (o == null) 
+        return false;
+}
+
+// 묵시적 null 검사 - 이쪽이 낫다.
+@Override public boolean equals(Object o) {
+    if (!(o instanceof MyType))
+        return false;
+    MyType mt = (MyType) o;
+}
+```
