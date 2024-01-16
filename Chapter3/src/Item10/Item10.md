@@ -102,3 +102,5 @@ public boolean equals(MyClass o) {
         ...
 }
 ```
+## equals를 쉽게 작성하게 해주는 프레임워크
+equals를 작성하고 테스트 하는 일을 대신해줄 오픈소스가 바로 AutoValue 프레임워크다. 클래스에 애너테이션 하나만 추가하면 AutoValue가 이 메서드들을 알아서 작성해준다.
