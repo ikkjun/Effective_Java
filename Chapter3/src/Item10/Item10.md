@@ -91,3 +91,14 @@ equals를 다 구현했다면 대칭성, 추이성, 일관성이 있는지 검�
     return pn.lineNum == lineNum && pn.prefix == prefix && pn.areaCode == areaCode;
 }
 ```
+
+## equals 메서드 사용 시 주의사항
+- equals를 재정의할 땐 hashCode도 반드시 재정의해야 한다.([Item11]())
+- 너무 복잡하게 해결하려고 하지 말자. 필드들의 동치성만 검사해도 equals 규약을 어렵지 않게 지킬 수 있다.
+- Object 외의 타입을 매개변수로 받는 equals 메서드는 선언하지 말자.
+```java
+// 잘못된 예 - 입력 타입은 반드시 Object여야 한다!!
+public boolean equals(MyClass o) {
+        ...
+}
+```
