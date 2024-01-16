@@ -69,3 +69,17 @@ null-아님은 모든 객체가 null과 같지 않아야 한다는 뜻이다.
     MyType mt = (MyType) o;
 }
 ```
+equals가 타입을 확인하지 않으면 잘못된 타입이 인수로 주어졌을 때 ClassCastException을 던져서 일반 규약을 위배하게 된다.
+
+## equals 메서드 구현 방법
+1. == 연산자를 사용해 입력이 자기 자신의 참조인지 확인한다.
+2. instanceof 연산자로 입력이 올바른 타입인지 확인한다.
+3. 입력을 올바른 타입으로 형변환한다. instanceof 검사를 했으므로 항상 성공한다.
+4. 입력 객체와 자기 자신의 대응되는 '핵심' 필드들이 모두 일치하는지 하나씩 검사한다.
+
+float와 double을 제외한 기본 타입 필드는 == 연산자로 비교하고, 참조 타입 필드는 각각의 equals 메서드로, float와 double 필드는 각각 정적 메서드인 Float.compare(float, float)와 Double.compare(double, double)로 비교한다.</br>
+equals를 다 구현했다면 대칭성, 추이성, 일관성이 있는지 검토해야 한다.
+
+```java
+// 전형적인 equals 메서드의 예
+```
