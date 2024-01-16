@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter3/src/Item10/Composition/ColorPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/src/Item10/Item10.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/Item10/Item10.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +179,7 @@
       <workItem from="1705057312404" duration="3105000" />
       <workItem from="1705104507516" duration="318000" />
       <workItem from="1705280367333" duration="9656000" />
-      <workItem from="1705365463846" duration="3577000" />
+      <workItem from="1705365463846" duration="4150000" />
     </task>
     <task id="LOCAL-00008" summary="study">
       <option name="closed" value="true" />
