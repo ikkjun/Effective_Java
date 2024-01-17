@@ -53,9 +53,3 @@ public final class PhoneNumber {
 //        return result;
 //    }
 }
-
-/*
-질문
-1. 핵심 필드 3개의 hashCode를 다 동일하게 설정한 뒤, equals로 비교하는거죠?
-2. rangeCheck()에서 short값으로 반환하는 이유는 무엇인가요?
- */
