@@ -32,3 +32,8 @@ public final class PhoneNumber {
         return result;
     }
 }
+
+/*
+질문
+핵심 필드 3개의 hashCode를 다 동일하게 설정한 뒤, equals로 비교하는거죠?
+ */
