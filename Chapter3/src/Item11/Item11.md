@@ -56,13 +56,13 @@ Objects 클래스는 임의의 개수만큼 객체를 받아 해시코드를 계
 private int hashCode;
 
 @Override public int hashCode() {
-int result = hashCode;
-if (result == 0) {
-result = Short.hashCode(areaCode);
-result = 31 * result + Short.hashCode(prefix);
-result = 31 * result + Short.hashCode(lineNum);
-hashCode = result;
-}
-return result;
+   int result = hashCode;
+   if (result == 0) {
+      result = Short.hashCode(areaCode);
+      result = 31 * result + Short.hashCode(prefix);
+      result = 31 * result + Short.hashCode(lineNum);
+      hashCode = result;
+   }
+   return result;
 }
 ```
