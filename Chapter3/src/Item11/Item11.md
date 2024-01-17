@@ -28,3 +28,25 @@ equals를 재정의한 클래스 모두에서 hashCode도 재정의해야 한다
 
 파생 필드는 해시코드 계산에서 제외해도 된다. 즉, 다른 필드로부터 계산해낼 수 있는 필드는 모두 무시해도 된다. 또한 equals 비교에 사용되지 않은 필드는 '반드시' 제외해야 한다.
 곱할 숫자를 31로 정한 이유는 31이 홀수이면서 소수(prime)이기 때문이다. 만약 이 숫자가 짝수이고 오버플로가 발생한다면 정보를 잃게 된다.
+
+```java
+// 코드 11-2 전형적인 hashCode 메서드
+@Override public int hashCode() {
+int result = Short.hashCode(areaCode);
+result = 31 * result + Short.hashCode(prefix);
+result = 31 * result + Short.hashCode(lineNum);
+return result;
+}
+```
+코드 11-2의 메서드는 PhoneNumber 인스턴스의 핵심 필드 3개만을 사용해 간단한 계산만 수행한다. 해시 충돌이 더욱 적인 방법을 꼭 써야 한다면 구아바의 com.google.common.hash.Hashing을 참고하면 된다.</br></br>
+Objects 클래스는 임의의 개수만큼 객체를 받아 해시코드를 계산해주는 정적 메서드인 hash를 제공한다. 하지만 아쉽게도 속도는 더 느리다.
+```java
+// 코드 11-3 한 줄짜리 hashCode 메서드 - 성능이 살짝 아쉽다.
+@Override public int hashCode() {
+    return Objects.hash(lineNum, prefix, areaCode);
+}
+```
+
+클래스가 불변이고 해시코드를 계산하는 비용이 크다면, 매번 새로 계산하기 보다 캐싱하는 방식을 고려해야 한다. 
+- 이 타입의 객체가 주로 해시의 키로 사용되는 경우 </br> 인스턴스가 만들어질 때 해시코드를 계산해둬야 한다. 
+- 해시의 키로 사용되지 않는 경우 </br> hashCode가 처음 불릴 때 계산하는 지연초기화(lazy initialization) 전략을 사용해야 한다. hashCode 필드의 초깃값은 흔히 생성되는 객체의 해시코드와는 달라야 한다. 

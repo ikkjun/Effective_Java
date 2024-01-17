@@ -1,5 +1,7 @@
 package Item11;
 
+import java.util.Objects;
+
 public final class PhoneNumber {
     private final short areaCode, prefix, lineNum;
 
@@ -31,9 +33,15 @@ public final class PhoneNumber {
         result = 31 * result + Short.hashCode(lineNum);
         return result;
     }
+
+    // 코드 11-3 한 줄짜리 hashCode 메서드 - 성능이 살짝 아쉽다.
+//    @Override public int hashCode() {
+//        return Objects.hash(lineNum, prefix, areaCode);
+//    }
 }
 
 /*
 질문
-핵심 필드 3개의 hashCode를 다 동일하게 설정한 뒤, equals로 비교하는거죠?
+1. 핵심 필드 3개의 hashCode를 다 동일하게 설정한 뒤, equals로 비교하는거죠?
+2. rangeCheck()에서 short값으로 반환하는 이유는 무엇인가요?
  */
