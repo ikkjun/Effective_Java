@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
-      <change afterPath="$PROJECT_DIR$/Chapter3/src/Item13/Item13.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter3/src/Item13/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter3/src/Item13/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter3/src/Item13/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/src/Item13/Item13.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/Item13/Item13.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +88,9 @@
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/chapter2/Item2" />
       <recent name="$PROJECT_DIR$/chapter2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Item13" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CounterPointTest">
@@ -184,15 +190,7 @@
       <workItem from="1705414228966" duration="738000" />
       <workItem from="1705453100106" duration="5417000" />
       <workItem from="1705470916561" duration="997000" />
-      <workItem from="1705540280255" duration="4364000" />
-    </task>
-    <task id="LOCAL-00032" summary="Effective Java">
-      <option name="closed" value="true" />
-      <created>1704560227146</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1704560227146</updated>
+      <workItem from="1705540280255" duration="8718000" />
     </task>
     <task id="LOCAL-00033" summary="Effective Java">
       <option name="closed" value="true" />
@@ -578,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705543802768</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705545588854</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1705545588854</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
