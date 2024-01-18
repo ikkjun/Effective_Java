@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter3/src/Item11/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/Item11/PhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter3/src/Item12/Item12.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/Item12/Item12.md" afterDir="false" />
     </list>
@@ -184,23 +185,7 @@
       <workItem from="1705414228966" duration="738000" />
       <workItem from="1705453100106" duration="5417000" />
       <workItem from="1705470916561" duration="997000" />
-      <workItem from="1705540280255" duration="2318000" />
-    </task>
-    <task id="LOCAL-00029" summary="Effective Java">
-      <option name="closed" value="true" />
-      <created>1704457628347</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1704457628347</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Effective Java">
-      <option name="closed" value="true" />
-      <created>1704457641650</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1704457641650</updated>
+      <workItem from="1705540280255" duration="3058000" />
     </task>
     <task id="LOCAL-00031" summary="Effective Java">
       <option name="closed" value="true" />
@@ -578,7 +563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705542698121</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705542963824</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1705542963824</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705542967220</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1705542967221</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
