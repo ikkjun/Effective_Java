@@ -37,7 +37,36 @@ clone메서드는 사실상 생성자와 같은 효과를 낸다. 즉, clone은 
 }
 ```
 
-Cloneable 아키텍처는 '가변 객체를 참조하는 필드는 final로 선언하라'는 일반용법과 충돌한다.
+Cloneable 아키텍처는 '가변 객체를 참조하는 필드는 final로 선언하라'는 일반용법과 충돌한다. 원본과 복제된 객체가 가변 객체를 공유해다 안전한 경우가 아니라면, 복제할 수 있는 클래스를 만들기 위해 일부 필드에서 final 한정자를 제거할 수도 있다.
+
+```java
+public class HashTable implements Cloneable {
+    private Entry[] buckets = new Entry[10];
+    
+    private static class Entry {
+        final Object key;
+        Object value;
+        Entry next;
+        
+        Entry(Object key, Object value, Entry next) {
+            this.key = key;
+            this.value = value;
+            this.next = next;
+        }
+    }
+    
+//    // 잘못된 clone 메서드 - 가변 상태를 공유한다!
+//    @Override public HashTable clone() {
+//        try {
+//            HashTable result = (HashTable) super.clone();
+//            result.buckets = buckets.clone();
+//            return result;
+//        } catch (CloneNotSupportedException e) {
+//            throw new AssertionError();
+//        }
+//    }
+}
+```
 ## clone 메서드 구현 시기
 
 ## clone 메서드의 대안
