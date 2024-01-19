@@ -53,9 +53,27 @@ public class HashTable implements Cloneable {
             this.value = value;
             this.next = next;
         }
+        
+        // 이 엔트리가 가리키는 연결 리스트를 재귀적으로 복사
+        Entry deepCopy() {
+            return new Entry(key, value, next == null? null : next.deepCopy());
+        }
     }
     
+    @Override public HashTable clone() {
+        try {
+            HashTable result = (HashTable) super.clone();
+            result.buckets = new Entry[buckets.length];
+            for (int i=0;i<buckets.length;i++) 
+                if(buckets[i] != null)
+                    result.buckets[i] = buckets[i].deepCopy();
+            return result;
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
 //    // 잘못된 clone 메서드 - 가변 상태를 공유한다!
+//    // 이 배열은 원본과 같은 연결 리스트를 참조하여 원본과 복제본 모두 예기치 않게 동작할 가능성이 생긴다.
 //    @Override public HashTable clone() {
 //        try {
 //            HashTable result = (HashTable) super.clone();
@@ -67,6 +85,8 @@ public class HashTable implements Cloneable {
 //    }
 }
 ```
+
+연결리스트를 복제하는 방법은 재귀 호출 때문에 리스트의 원소 수만큼 스택 프레임을 소비하여, 리스트가 길면 스택 오버플로를 일으킬 위험이 있기 때문에 좋은 방법은 아니다. 이 문제를 피하려면 deepCopy를 재귀 호출 대신 반복자를 써서 순회하는 방향으로 수정해야 한다.
 ## clone 메서드 구현 시기
 
 ## clone 메서드의 대안
