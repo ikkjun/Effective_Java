@@ -55,8 +55,14 @@ public class HashTable implements Cloneable {
         }
         
         // 이 엔트리가 가리키는 연결 리스트를 재귀적으로 복사
+        // return new Entry(key, value, next == null? null : next.deepCopy());
+        // 연결리스트를 복제하는 방법은 재귀 호출 때문에 리스트의 원소 수만큼 스택 프레임을 소비하여, 리스트가 길면 스택 오버플로를 일으킬 위험이 있기 때문에 좋은 방법은 아니다. 
+        // 이 문제를 피하려면 deepCopy를 재귀 호출 대신 반복자를 써서 순회하는 방향으로 수정해야 한다.
         Entry deepCopy() {
-            return new Entry(key, value, next == null? null : next.deepCopy());
+            Entry result = new Entry(key, value, next);
+            for (Entry p = result;p.next!=null; p = p.next)
+                p.next = new Entry(p.next.key, p.next.value, p.next.next);
+            return result;
         }
     }
     
@@ -86,7 +92,12 @@ public class HashTable implements Cloneable {
 }
 ```
 
-연결리스트를 복제하는 방법은 재귀 호출 때문에 리스트의 원소 수만큼 스택 프레임을 소비하여, 리스트가 길면 스택 오버플로를 일으킬 위험이 있기 때문에 좋은 방법은 아니다. 이 문제를 피하려면 deepCopy를 재귀 호출 대신 반복자를 써서 순회하는 방향으로 수정해야 한다.
+### 정리
+Cloneable을 구현하는 모든 클래스는 clone을 재정의해야 한다. 
+이때 접근 제한자는 public으로, 반환 타입은 클래스 자신으로 변경한다. 
+이 메서드는 가장 먼저 super.clone을 호출한 후 필요한 필드를 전부 적절히 수정한다.
+일반적으로 이 말은 그 객체의 내부 '깊은 구조'에 숨어 있는 모든 가변 객체를 복사하고, 복제본이 가진 객체 참조 모두가 복사된 객체들을 가리키게 함을 뜻한다.
+
 ## clone 메서드 구현 시기
 
 ## clone 메서드의 대안
