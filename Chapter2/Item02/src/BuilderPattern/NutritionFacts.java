@@ -14,10 +14,10 @@ public class NutritionFacts {
         private final int servings;
 
         // 선택 매개변수 - 기본값으로 초기화한다.
-        private final int calories = 0;
-        private final int fat = 0;
-        private final int sodium = 0;
-        private final int carbonbydrate = 0;
+        private int calories = 0;
+        private int fat = 0;
+        private int sodium = 0;
+        private int carbonhydrate = 0;
 
         public Builder(int servingSize, int servings) {
             this.servingSize = servingSize;
@@ -31,7 +31,7 @@ public class NutritionFacts {
         public Builder sodium(int val)
             {sodium = val;    return this;}
         public Builder carbohydrate(int val)
-            {carbohydrate = val;    return this;}
+            {carbonhydrate = val;    return this;}
 
         public NutritionFacts build() {
             return new NutritionFacts(this);
@@ -44,5 +44,5 @@ public class NutritionFacts {
         calories = builder.calories;
         fat = builder.fat;
         sodium = builder.sodium;
-        carbonbydrate = builder.carbonbydrate;
+        carbonbydrate = builder.carbonhydrate;
     }

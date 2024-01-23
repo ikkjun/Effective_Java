@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Elvis {
     private static final Elvis INSTANCE = new Elvis();
-    private Elvis() {...}
+    private Elvis() { /*...*/ }
     public static Elvis getInstance() { return INSTANCE; }
-    public void leaveTheBuilding(){...}
+    public void leaveTheBuilding(){ /*...*/ }
 
     // 싱글턴임을 보장해주는 readResolve 메서드
     private Object readResolve() {
