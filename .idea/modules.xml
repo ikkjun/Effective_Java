@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item2/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/chapter2/Item2/BuilderPattern/BuilderPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/BuilderPattern/BuilderPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Chapter2.iml" filepath="$PROJECT_DIR$/Chapter2/Chapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter3/Chapter3.iml" filepath="$PROJECT_DIR$/Chapter3/Chapter3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter4/Chapter4.iml" filepath="$PROJECT_DIR$/Chapter4/Chapter4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Effective_Java.iml" filepath="$PROJECT_DIR$/.idea/Effective_Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item02/Item02.iml" filepath="$PROJECT_DIR$/chapter2/Item02/Item02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item2/Item2.iml" filepath="$PROJECT_DIR$/chapter2/Item2/Item2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item3/Item3.iml" filepath="$PROJECT_DIR$/chapter2/Item3/Item3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item4/Item4.iml" filepath="$PROJECT_DIR$/chapter2/Item4/Item4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item5/Item5.iml" filepath="$PROJECT_DIR$/chapter2/Item5/Item5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item6/Item6.iml" filepath="$PROJECT_DIR$/chapter2/Item6/Item6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item7/Item7.iml" filepath="$PROJECT_DIR$/chapter2/Item7/Item7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item8/Item8.iml" filepath="$PROJECT_DIR$/chapter2/Item8/Item8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item9/Item9.iml" filepath="$PROJECT_DIR$/chapter2/Item9/Item9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item2/JavaBeans/JavaBeans.iml" filepath="$PROJECT_DIR$/chapter2/Item2/JavaBeans/JavaBeans.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/chapter2.iml" filepath="$PROJECT_DIR$/chapter2/chapter2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter2/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" filepath="$PROJECT_DIR$/chapter2/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item02/Item02.iml" filepath="$PROJECT_DIR$/Chapter2/Item02/Item02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/Item2.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/Item2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item3/Item3.iml" filepath="$PROJECT_DIR$/Chapter2/Item3/Item3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item4/Item4.iml" filepath="$PROJECT_DIR$/Chapter2/Item4/Item4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item5/Item5.iml" filepath="$PROJECT_DIR$/Chapter2/Item5/Item5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item6/Item6.iml" filepath="$PROJECT_DIR$/Chapter2/Item6/Item6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item7/Item7.iml" filepath="$PROJECT_DIR$/Chapter2/Item7/Item7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item8/Item8.iml" filepath="$PROJECT_DIR$/Chapter2/Item8/Item8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item9/Item9.iml" filepath="$PROJECT_DIR$/Chapter2/Item9/Item9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/JavaBeans/JavaBeans.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/JavaBeans/JavaBeans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" />
     </modules>
   </component>
 </project>
