@@ -25,3 +25,29 @@ public interface Comparable<T> {
 Comparable은 타입을 인수로 받는 제너릭 인터페이스이므로 compareTo 메서드의 인수 타입은 컴파일타임에 정해진다. 또한 null을 인수로 넣어 호출하면 NullPointerException을 던져야 한다.
 Comparable을 구현하지 않은 필드나 표준이 아닌 순서로 비교해야 한다면 비교자(Comparator)을 대신 사용한다.
 compareTo 메서드에서 관계 연산자 <와 >를 사용하는 이전 방식은 거추장스럽고 오류를 유발한다.
+
+```java
+// 기본 타입 필드가 여러 개인 경우 비교
+public int compareTo(PhoneNumber pn) {
+    int result = Short.compare(areaCode, pn.areaCode);      // 가장 중요한 필드
+    if (result == 0) {
+        result = Short.compare(prefix, pn.prefix);          // 두 번재로 중요한 필드
+        if (result == 0)
+            result = Short.compare(lineNum, pn.lineNum);    // 세 번재로 중요한 필드
+    }
+    return result;
+}
+```
+자바 8부터 Comparator 인터페이스가 일련의 비교자 생성 메서드(comparator construction method)와 팀을 꾸려 메서드 연쇄 방식으로 비교자를 생성할 수 있게 되었다.
+
+```java
+// 비교자 생성 메서드를 활용한 비교자
+private static final Comparator<PhoneNumber> COMPARATOR = 
+        comparingInt((PhoneNumber pn) -> pn.areaCode)
+                .thenComparingInt(pn -> pn.prefix)
+                .thenComparingInt(pn -> pn.lineNum);
+
+public int compareTo(PhoneNumber pn) {
+    return COMPARATOR.compare(this, pn);
+}
+```
