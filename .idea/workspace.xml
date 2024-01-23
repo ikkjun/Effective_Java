@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
-      <change afterPath="$PROJECT_DIR$/Chapter4/src/Item15/Item15.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item02/src/BuilderPattern/NutritionFacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item02/src/BuilderPattern/NutritionFacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item5/src/WrongStaticUtility/SpellChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item9/src/try_finally.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item9/src/try_finally.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources_catch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources_catch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4/src/Item15/Item15.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/src/Item15/Item15.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,23 +202,7 @@
       <workItem from="1705629641901" duration="1880000" />
       <workItem from="1705712574694" duration="876000" />
       <workItem from="1705884898660" duration="4291000" />
-      <workItem from="1705934072394" duration="8225000" />
-    </task>
-    <task id="LOCAL-00047" summary="Effective Java">
-      <option name="closed" value="true" />
-      <created>1705062489008</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1705062489008</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Effective Java">
-      <option name="closed" value="true" />
-      <created>1705311842628</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1705311842628</updated>
+      <workItem from="1705934072394" duration="8985000" />
     </task>
     <task id="LOCAL-00049" summary="Effective Java">
       <option name="closed" value="true" />
@@ -601,7 +580,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705978055981</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705987614911</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1705987614912</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1705987618431</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1705987618431</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
