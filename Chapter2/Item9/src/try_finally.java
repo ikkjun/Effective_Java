@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+import java.io.*;
 
 public class try_finally {
     static String firstLineOfFile(String path) throws IOException {
@@ -12,7 +10,7 @@ public class try_finally {
         }
     }
 
-    static void copy(String src, String dst) throws IOException {
+    static void copy(String src, String dst) throws IOException, FileNotFoundException {
         InputStream in = new FileInputStream(src);
         try{
             OutputStream out = new FileOutputStream(dst);

@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
+      <change afterPath="$PROJECT_DIR$/Chapter4/src/Item15/Item15.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter2/Item02/src/BuilderPattern/NutritionFacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item02/src/BuilderPattern/NutritionFacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/BuilderPattern/BuilderPattern.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/BuilderPattern/NutritionFacts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/Item2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/Item2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item02/src/Item2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/JavaBeans/JavaBeans.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/JavaBeans/NutritionFacts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/telescoping_constructor_pattern/NutritionFacts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item3/src/EnumType/Elvis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item3/src/EnumType/Elvis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/Item3/src/StaticFactory/Elvis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item3/src/StaticFactory/Elvis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/Item5/src/WrongStaticUtility/SpellChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/Item9/src/try_finally.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item9/src/try_finally.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources_catch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/Item9/src/try_with_resources_catch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +102,7 @@
       <recent name="Item13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounterPointTest">
+  <component name="RunManager" selected="Application.NutritionFacts">
     <configuration name="Adult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adult" />
       <module name="Item8" />
@@ -141,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="public_static_final.Main" />
-      <module name="Item3" />
+    <configuration name="NutritionFacts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuilderPattern.NutritionFacts" />
+      <module name="Item02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="public_static_final.*" />
+          <option name="PATTERN" value="BuilderPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NutritionFacts" />
         <item itemvalue="Application.CounterPointTest" />
         <item itemvalue="Application.Teenager" />
         <item itemvalue="Application.Adult" />
         <item itemvalue="Application.Elvis" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +207,7 @@
       <workItem from="1705629641901" duration="1880000" />
       <workItem from="1705712574694" duration="876000" />
       <workItem from="1705884898660" duration="4291000" />
-      <workItem from="1705934072394" duration="4410000" />
+      <workItem from="1705934072394" duration="8225000" />
     </task>
     <task id="LOCAL-00047" summary="Effective Java">
       <option name="closed" value="true" />

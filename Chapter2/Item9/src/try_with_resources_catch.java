@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+import java.io.*;
 
 public class try_with_resources_catch {
     static String firstLineOfFile(String path, String defaultVal) {
