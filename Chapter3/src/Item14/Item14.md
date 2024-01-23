@@ -51,3 +51,20 @@ public int compareTo(PhoneNumber pn) {
     return COMPARATOR.compare(this, pn);
 }
 ```
+
+## 정리
+순서를 고려해야 하는 값 클래스를 작성한다면 꼭 Comparable 인터페이스를 구현하여, 그 인스턴스들을 쉽게 정렬하고, 검색하고, 비교 기능을 제공하는 컬렉션과 어우러지도록 해야 한다.
+compareTo 메서드에서 필드의 값을 비교할 때 비교 연산자(<와 >)는 사용하지 말아야 한다.
+그 대신 박싱된 기본 타입 클래스가 제공하는 정적 compare 메서드나 Comparator 인터페이스가 제공하는 비교자 생성 메서드를 사용해야 한다.
+```java
+// 정적 compare메서드를 활용한 비교자
+static Comparator<Object> hashCodeOrder = new Comparator<>() {
+    public int compare(Object o1, Object o2) {
+        return Integer.compare(o1.hashCode(), o2.hashCode());
+    }
+};
+
+// 비교자 생성 메서드를 활용한 비교자
+static Comparator<Object> hashCodeOrder = 
+    Comparator.comparingInt(o -> o.hashCode());
+```
