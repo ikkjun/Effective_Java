@@ -10,4 +10,19 @@ SuppressWarnings 애너테이션은 항상 가능한 한 좁은 범위에 적용
 
 애너테이션은 선언에만 달 수 있기 때문에 return 문에는 @SuppressWarnings)를 달 수 없다.
 반환값을 담을 지역변수를 하나 선언하고 그 변수에 애너테이션을 달면 된다.
+```java
+public <T> T[] toArray(T[] a) {
+    if (a.length < size) {
+        // 생성한 배열과 매개변수로 받은 배열의 타입이 모두 T[]로 같으므로
+        // 올바른 형변환이다.
+        @SuppressWarnings("unchecked") T[] result =
+                (T[]) Arrays.copyOf(elements, size, a.getClass());
+        return result;
+    }
+    System.arraycopy(elements, 0, a, 0, size);
+    if (a.length > size)
+        a[size] = null;
+    return a;
+}
+```
 @SuppressWarnings("unchecked") 애너테이션을 사용할 때면 그 경고를 무시해도 안전한 이유를 항상 주석으로 남겨야 한다.
