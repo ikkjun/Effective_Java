@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/Item30/Item30.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +220,8 @@
       <workItem from="1707738132501" duration="220000" />
       <workItem from="1707785998632" duration="851000" />
       <workItem from="1707837569697" duration="1154000" />
-      <workItem from="1707923754774" duration="510000" />
+      <workItem from="1707923754774" duration="662000" />
+      <workItem from="1707958302567" duration="2832000" />
     </task>
     <task id="LOCAL-00065" summary="Effective Java">
       <option name="closed" value="true" />
