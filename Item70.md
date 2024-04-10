@@ -14,5 +14,5 @@ throwable을 잡지 않은 스레드는 적절한 오류 메시지를 내뱉으�
 
 우리가 구현하는 비검사 throwable은 모두 RuntimeException의 하위 클래스여야 한다. 
 Exception, RuntimeException, Error를 상속하지 않는 throwable을 만들 수도 있다. 
-그러나 throwable은 장점이 없으니 사용하지 않는 게 좋다.
+그러나 throwable은 장점이 없어서 사용하지 않는 것이 좋다.
 throwable은 정상적인 검사 예외보다 나을 게 하나도 없으면서 API 사용자를 헷갈리게 할 뿐이다.
