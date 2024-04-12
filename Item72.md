@@ -10,3 +10,13 @@
 - NullPointerException: null 값을 허용하지 않는 메서드에 null이 들어올 때
 - IndexoutofBoundsException: 어떤 시퀀스의 허용 범위를 넘는 값을 건넬 때
 - ConcurrentModificationException: 단일 스레드에서 사용하려고 설계한 객체를 여러 스레드가 동시에 수정하려 할 때
+- UnsupportedoperationException: 클라이언트가 요청한 동작을 대상 객체가 지원하지 않을 때 
+
+
+Exception, RuntimeException, ThrowabLe, Error는 직접 재사용하면 안 된다. 이 예외들은 여러 성격의 예외들을 포괄하는 클래스이므로 안정적으로 테스트할 수 없다.
+
+상황에 부합한다면 항상 표준 예외를 재사용하자. 
+이때 API 문서를 참고해 그 예외가 어떤 상황에서 던져지는지 확인해야 한다.
+
+인수 값이 무엇이었든 어차피 실패했을 거라면 ILLegalStateException을, 
+그렇지 않으면 ILLegalArgumentException을 던져야 한다.
