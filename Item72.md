@@ -18,5 +18,5 @@ Exception, RuntimeException, ThrowabLe, Error는 직접 재사용하면 안 된�
 상황에 부합한다면 항상 표준 예외를 재사용하자. 
 이때 API 문서를 참고해 그 예외가 어떤 상황에서 던져지는지 확인해야 한다.
 
-인수 값이 무엇이었든 어차피 실패했을 거라면 ILLegalStateException을, 
-그렇지 않으면 ILLegalArgumentException을 던져야 한다.
+인수 값이 무엇이었든 어차피 실패했을 거라면 IllegalStateException을, 
+그렇지 않으면 IllegalArgumentException을 던져야 한다.
