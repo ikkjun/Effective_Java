@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/BuilderPattern/BuilderPattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Chapter2.iml" filepath="$PROJECT_DIR$/Chapter2/Chapter2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter3/Chapter3.iml" filepath="$PROJECT_DIR$/Chapter3/Chapter3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter4/Chapter4.iml" filepath="$PROJECT_DIR$/Chapter4/Chapter4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter5/Chapter5.iml" filepath="$PROJECT_DIR$/Chapter5/Chapter5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter6/Chapter6.iml" filepath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter7/Chapter7.iml" filepath="$PROJECT_DIR$/Chapter7/Chapter7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item2/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/Chapter02/Item2/BuilderPattern/BuilderPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Chapter02.iml" filepath="$PROJECT_DIR$/Chapter02/Chapter02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter03/Chapter03.iml" filepath="$PROJECT_DIR$/Chapter03/Chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter04/Chapter04.iml" filepath="$PROJECT_DIR$/Chapter04/Chapter04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter05/Chapter05.iml" filepath="$PROJECT_DIR$/Chapter05/Chapter05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter06/Chapter06.iml" filepath="$PROJECT_DIR$/Chapter06/Chapter06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter07/Chapter07.iml" filepath="$PROJECT_DIR$/Chapter07/Chapter07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter08/Chapter08.iml" filepath="$PROJECT_DIR$/Chapter08/Chapter08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter09/Chapter09.iml" filepath="$PROJECT_DIR$/Chapter09/Chapter09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter10/Chapter10.iml" filepath="$PROJECT_DIR$/Chapter10/Chapter10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter11/Chapter11.iml" filepath="$PROJECT_DIR$/Chapter11/Chapter11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter12/Chapter12.iml" filepath="$PROJECT_DIR$/Chapter12/Chapter12.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Effective_Java.iml" filepath="$PROJECT_DIR$/.idea/Effective_Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item02/Item02.iml" filepath="$PROJECT_DIR$/Chapter2/Item02/Item02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/Item2.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/Item2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item3/Item3.iml" filepath="$PROJECT_DIR$/Chapter2/Item3/Item3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item4/Item4.iml" filepath="$PROJECT_DIR$/Chapter2/Item4/Item4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item5/Item5.iml" filepath="$PROJECT_DIR$/Chapter2/Item5/Item5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item6/Item6.iml" filepath="$PROJECT_DIR$/Chapter2/Item6/Item6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item7/Item7.iml" filepath="$PROJECT_DIR$/Chapter2/Item7/Item7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item8/Item8.iml" filepath="$PROJECT_DIR$/Chapter2/Item8/Item8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item9/Item9.iml" filepath="$PROJECT_DIR$/Chapter2/Item9/Item9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/JavaBeans/JavaBeans.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/JavaBeans/JavaBeans.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter2/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" filepath="$PROJECT_DIR$/Chapter2/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item02/Item02.iml" filepath="$PROJECT_DIR$/Chapter02/Item02/Item02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item2/Item2.iml" filepath="$PROJECT_DIR$/Chapter02/Item2/Item2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item3/Item3.iml" filepath="$PROJECT_DIR$/Chapter02/Item3/Item3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item4/Item4.iml" filepath="$PROJECT_DIR$/Chapter02/Item4/Item4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item5/Item5.iml" filepath="$PROJECT_DIR$/Chapter02/Item5/Item5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item6/Item6.iml" filepath="$PROJECT_DIR$/Chapter02/Item6/Item6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item7/Item7.iml" filepath="$PROJECT_DIR$/Chapter02/Item7/Item7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item8/Item8.iml" filepath="$PROJECT_DIR$/Chapter02/Item8/Item8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item9/Item9.iml" filepath="$PROJECT_DIR$/Chapter02/Item9/Item9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item2/JavaBeans/JavaBeans.iml" filepath="$PROJECT_DIR$/Chapter02/Item2/JavaBeans/JavaBeans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" filepath="$PROJECT_DIR$/Chapter02/Item2/telescoping_constructor_pattern/telescoping_constructor_pattern.iml" />
     </modules>
   </component>
 </project>
