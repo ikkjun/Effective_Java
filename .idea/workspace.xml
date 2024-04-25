@@ -95,7 +95,7 @@
       <recent name="Item13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NutritionFacts">
+  <component name="RunManager" selected="애플리케이션.Adult">
     <configuration name="Adult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adult" />
       <module name="Item8" />
@@ -149,15 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.NutritionFacts" />
-        <item itemvalue="Application.CounterPointTest" />
-        <item itemvalue="Application.Teenager" />
-        <item itemvalue="Application.Adult" />
-        <item itemvalue="Application.Elvis" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
