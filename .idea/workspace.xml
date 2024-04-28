@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827e3243-c108-4a9b-bdd3-5b13522044b0" name="Changes" comment="Effective Java">
-      <changelist_data name="ikkjun" email="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,15 +237,7 @@
       <workItem from="1708990309099" duration="45000" />
       <workItem from="1708995600795" duration="243000" />
       <workItem from="1709289967413" duration="1959000" />
-      <workItem from="1714017577075" duration="2874000" />
-    </task>
-    <task id="LOCAL-00078" summary="Effective Java">
-      <option name="closed" value="true" />
-      <created>1705542963824</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1705542963824</updated>
+      <workItem from="1714017577075" duration="3314000" />
     </task>
     <task id="LOCAL-00079" summary="Effective Java">
       <option name="closed" value="true" />
@@ -631,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709397016503</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Effective Java">
+      <option name="closed" value="true" />
+      <created>1714029276232</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1714029276232</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
