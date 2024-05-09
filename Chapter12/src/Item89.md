@@ -14,4 +14,9 @@ readResolve 메서드를 사용해 순간적으로 만들어진 역직렬화된 
 
 ## readResolve 메서드의 접근성
 - final 클래스<br>
-readResolve 메서드는 private이어야 한다. final이 아닌 클래스에서는 다음의 몇 가 지를 주의해서 고려해야 한다. Private으로 선언하면 하위 클래스에서 사용할 수 없다. package-pivate으로 선언하면 같은 패키지에 속한 하위 클래스에서 만 사용할 수 있다. protectedy public으로 선언하면 이를 재정의하지 않은 모 든 하위 클래스에서 사용할 수 있다. prolected나 Public이면서 하위 클래스에 서 재정의하지 않았다면, 하위 클래스의 인스턴스를 역직렬화하면 상위 클래 스의 인스턴스를 생성하여 CLassCastException을 일으킬 수 있다.
+readResolve 메서드는 private이어야 한다. 
+- final이 아닌 클래스
+    1. private으로 선언하면 하위 클래스에서 사용할 수 없다. 
+    2. package-private으로 선언하면 같은 패키지에 속한 하위 클래스에서만 사용할 수 있다. 
+    3. protected나 public으로 선언하면 이를 재정의하지 않은 모든 하위 클래스에서 사용할 수 있다. 
+    4. protected나 public이면서 하위 클래스에서 재정의하지 않았다면, 하위 클래스의 인스턴스를 역직렬화하면 상위 클래스의 인스턴스를 생성하여 CLassCastException을 일으킬 수 있다.
